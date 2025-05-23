@@ -1,16 +1,30 @@
-body{
+body {
     font-family: "Noto Sans JP", sans-serif;
     color: #333333;
     margin: 0;
     text-align: center;
+
+    background-color: #eeeeee;
+}
+
+h1,h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    color: #111111;
+    margin: 24px;
+}
+
+h3 {
+    color: #222222;
 }
 
 header{
-    font-family: "Roboto", sans-serif;
     background-color: #00A2AA;
+    padding: 24px;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
 }
 
 header ul{
@@ -19,73 +33,42 @@ header ul{
 
 header ul li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 24px;
 }
 
 header ul li a{
+    font-family: "Roboto", sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
 }
 
 header img{
-    height: 30px;
+    height: 32px;
 }
 
 footer{
-    background-color: #333333;
-    color: #ffffff;
-    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: #000000;
+    color: #eeeeee;
+    padding: 80px;
 }
 
-.top{
-    background-image: url(image/top_bg.png);
-    background-size: cover;
-    background-position: center;
-    padding: 200px 0;
-}
-
-.about{
-    background-color: #f6f6f6;
-    padding: 100px;
-}
-
-h2{
-    margin: 0;
-}
-
-hr{
-    margin-bottom: 50px;
-    height: 5px;
-    width: 100px;
-    border: none;
-}
-
-.blue-line{
-    background-color: #00A2AA;
-
-}
-
-.about img{
+#about img{
     width: 200px;
 }
 
-.about table{
+#about table{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
 }
 
-.skills{
-    background-color: #00A2AA;
-    padding: 100px;
+#about, #skills, #works, #contact{
+    padding: 80px;
 }
 
-.white-line{
-    background-color: #FFFFFF;
-}
-
-.box{
+.skill-item{
     background: #FFFFFF;
     border-radius: 8px;
     display: inline-block;
@@ -94,25 +77,48 @@ hr{
     width: 16%;
 }
 
-.box img{
+.skill-item img{
     display: block;
-    margin: 20px auto;
+    margin: 24px auto;
     width: 50%;
 }
 
-.portfolio{
-    background-color: #f6f6f6;
-    padding: 100px;
-}
-
-.card{
+.work-item{
     background: #FFFFFF;
     border-radius: 8px;
     display: inline-block;
     margin: 24px;
-    width: 25%;
+    width: 43%;
 }
 
-.card img{
+.work-preview{
     width: 100%;
+    height: max-content;
+    border-radius: 8px;
+    margin: 0px;
+}
+
+.work-item h3, .work-item p {
+    text-align: left;
+    padding: 0px 16px 0px 16px;
+}
+
+hr{
+    background-color: #00A2AA;
+    height: 8px;
+    width: 100%;
+    border: none;
+}
+
+.iframe-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }

@@ -1,99 +1,126 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!--header-->
-    <header>
-      <ul>
-        <img src="image/tepp-logo-white.png">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-      </ul>
-    </header>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEPPei's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/tepp-logo-white.png">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
 
-    <!--top-->
-    <div class="top">
-      <h1>TEPPei's Portfolio</h1>
+  <div id="about">
+    <h2>About</h2>
+    <img src="images/face_2024_2_frame.png" alt="TEPPeiの顔写真">
+    <h3>川邉哲平 / Teppei Kawabe</h3>
+    <table>
+      <tr>
+        <th>2007</th>
+        <td>兵庫県に誕生</td>
+      </tr>
+      <tr>
+        <th>2009</th>
+        <td>ドラムの習い事を開始（現在は趣味として継続）</td>
+      </tr>
+      <tr>
+        <th>2018</th>
+        <td>小学6年生の時にクラスで短編映画を制作</td>
+      </tr>
+      <tr>
+        <th>2019</th>
+        <td>中学校では吹奏楽部でパーカッションを担当</td>
+      </tr>
+      <tr>
+        <th>2022</th>
+        <td>N高等学校に進学し、生徒会・委員会・実行委員会などで精力的に活動</td>
+      </tr>
+      <tr>
+        <th>2025</th>
+        <td>ZEN大学に進学し、大阪での一人暮らし・アルバイトを開始</td>
+      </tr>
+    </table>
+  </div>
+
+  <hr>
+
+  <div id="skills">
+    <h2>Skills</h2>
+    
+    <div class="skill-item">
+      <img src="images/Adobe_After_Effects_CC_icon.svg.png">
+      <h3>Adobe After Effects</h3>
+      <p>映像制作</p>
     </div>
 
-    <!--about-->
-    <div class="about" id="about">
-      <h2>About</h2>
-      <hr class="blue-line">
-      <img src="image/face_2023_gold_frame.png">
-      <p>
-        2022年4月　N高等学校 入学<br>
-        2025年3月　N高等学校 卒業（予定）<br>
-        2025年4月　ZEN大学 入学(予定)
-      </p>
-
-      <table>
-        <tr>
-          <td>氏名</td>
-          <td>川邉哲平</td>
-        </tr>
-        <tr>
-          <td>居住地</td>
-          <td>兵庫県三田市</td>
-        </tr>
-        <tr>
-          <td>公式ウェブサイト</td>
-          <td><a href="https://tepp.green/">https://tepp.green/</a></td>
-        </tr>
-      </table>
+    <div class="skill-item">
+      <img src="images/Adobe_Premiere_Pro_CC_icon.svg.png">
+      <h3>Adobe Premiere Pro</h3>
+      <p>動画編集</p>
     </div>
 
-    <!--skills-->
-    <div class="skills" id="skills">
-      <h2>Skills</h2>
-      <hr class="white-line">
-      <div class = "box">
-        <img src="image/Adobe_After_Effects_CC_icon.svg.png">
-        <b>Adobe After Effects</b>
-        ★★★★★
-      </div>
-      <div class = "box">
-        <img src="image/Adobe_Premiere_Pro_CC_icon.svg.png">
-        <b>Adobe Premiere Pro</b>
-        ★★★★
-      </div>
-      <div class = "box">
-        <img src="image/Adobe_Illustrator_CC_icon.svg.png">
-        <b>Adobe Illustrator</b>
-        ★★★
-      </div>
-      <div class = "box">
-        <img src="image/Google_Apps_Script.svg.png">
-        <b>Google Apps Script</b>
-        ★★
-      </div>
+    <div class="skill-item">
+      <img src="images/Adobe_Illustrator_CC_icon.svg.png">
+      <h3>Adobe Illustrator</h3>
+      <p>グラフィックデザイン</p>
     </div>
 
-    <!--portfolio-->
-    <div class="portfolio" id="portfolio">
-      <h2>Portfolio</h2>
-      <hr class="blue-line">
-      <div class = "card">
-        <h3>地域共通ポイント 広報チラシ</h3>
-        <img src="image/20240511_ゆりぽ広報チラシ_result_ネット用.png">
-        <p>Adobe Illustrator</p>
-      </div>
-      <div class = "card">
-        <h3>キャンパスポータルサイト 広報ポスター</h3>
-        <img src="image/20241218_UPs_CP内掲示ポスター(仮1).png">
-        <p>Canva</p>
-      </div>
+    <div class="skill-item">
+      <img src="images/Google_Apps_Script_icon.svg.png">
+      <h3>Google Apps Script</h3>
+      <p>プログラミング</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="works">
+    <h2>Works</h2>
+
+    <div class="work-item">
+      <img class="work-preview" src="images/works_20240427_result_c0011_ステージ1日目OP動画_本用途外使用_全尺.gif" alt="16:9の画像">
+      <h3>磁石祭2024 オープニングムービー</h3>
+      <p>磁石祭2024のオープニングムービーの制作統括を担当。　<i>#映像制作</i></p>
     </div>
 
-    <!--footer-->
-    <footer>
-      &copy; 2024 TEPPei
-    </footer>
+    <div class="work-item">
+      <div class="iframe-wrapper">
+        <iframe class="work-preview" width="9" height="6" src="https://www.youtube.com/embed/uo4vL8-lQxY?si=TlkyKp83LDtq7ARF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <h3>生徒会ライブ2024</h3>
+      <p>N高グループ生徒会の成果発信番組で、一部VTRの制作を担当。　<i>#動画編集</i></p>
+    </div>
 
-  </body>
+    <div class="work-item">
+      <img class="work-preview" src="images/works_20231008_ゆりポ.png" alt="16:9の画像">
+      <h3>地域共通ポイント「ゆりポ」</h3>
+      <p>兵庫県三田市のゆりのき台自治会による地域共通ポイント施策において、ロゴ・会員証・キービジュアルのデザインを担当。　<i>#グラフィックデザイン</i></p>
+    </div>
+
+    <div class="work-item">
+      <img class="work-preview" src="images/works_20240919_フォーム管理シート.png" alt="16:9の画像">
+      <h3>Googleフォーム 管理シート</h3>
+      <p>Google スプレッドシートで指定した日時に、フォームの回答受付状態が自動で変更されるプログラムを作成。　<i>#プログラミング</ii></p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="contact">
+    <h2>Contact</h2>
+    <p>メール: <a href="mailto:tepp.green@gmail.com">tepp.green@gmail.com</a></p>
+  </div>
+
+  <footer>
+    &COPY; 2025 TEPPei
+  </footer>
+
+</body>
 </html>
