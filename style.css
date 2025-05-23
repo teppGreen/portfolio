@@ -1,0 +1,118 @@
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    color: #333333;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    font-family: "Roboto", sans-serif;
+    background-color: #00A2AA;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header ul{
+    margin: 0;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul li a{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header img{
+    height: 30px;
+}
+
+footer{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.top{
+    background-image: url(image/top_bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.about{
+    background-color: #f6f6f6;
+    padding: 100px;
+}
+
+h2{
+    margin: 0;
+}
+
+hr{
+    margin-bottom: 50px;
+    height: 5px;
+    width: 100px;
+    border: none;
+}
+
+.blue-line{
+    background-color: #00A2AA;
+
+}
+
+.about img{
+    width: 200px;
+}
+
+.about table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.skills{
+    background-color: #00A2AA;
+    padding: 100px;
+}
+
+.white-line{
+    background-color: #FFFFFF;
+}
+
+.box{
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 24px;
+    margin: 24px;
+    width: 16%;
+}
+
+.box img{
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.portfolio{
+    background-color: #f6f6f6;
+    padding: 100px;
+}
+
+.card{
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 24px;
+    width: 25%;
+}
+
+.card img{
+    width: 100%;
+}
